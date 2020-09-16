@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+
+ }   
+body{
+    position: relative;
+  background-image: url('./images/homepage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gamecontainer{
+    position: relative;
+    margin: 2vh auto;
+    background-image: url('./images/container.jpg');
+    background-size: cover;
+    width: 35%;
+    height: 96vh;
+}
+#btn{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 100px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        position: relative;
+        margin: 0 25%;
+        top: 40vh;
+      }
+#box{
+    position: absolute;
+    top: 10vh;
+    height: 10vh;
+    width: 10vh;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/53ac522c-664e-481b-a444-6faeaabb683f/daysil3-7fa3bbe5-cfb1-438d-a523-1ed8eeb57bde.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTNhYzUyMmMtNjY0ZS00ODFiLWE0NDQtNmZhZWFhYmI2ODNmXC9kYXlzaWwzLTdmYTNiYmU1LWNmYjEtNDM4ZC1hNTIzLTFlZDhlZWI1N2JkZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.vCoPorHzSho9VbtQ6RkE69EzbIn93BxmzmBPkYmibZo);
+    background-size: cover;
+    margin-left: 3vw;
+    transform: translateX(-50%);
+}
+#scorcont{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-family: serif;
+    float: right;
+}
+
+.box{
+    position: absolute;
+    height: 10vh;
+    width: 10vh;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/53ac522c-664e-481b-a444-6faeaabb683f/daysil3-7fa3bbe5-cfb1-438d-a523-1ed8eeb57bde.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTNhYzUyMmMtNjY0ZS00ODFiLWE0NDQtNmZhZWFhYmI2ODNmXC9kYXlzaWwzLTdmYTNiYmU1LWNmYjEtNDM4ZC1hNTIzLTFlZDhlZWI1N2JkZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.vCoPorHzSho9VbtQ6RkE69EzbIn93BxmzmBPkYmibZo);
+    background-size: cover;
+    margin: 0 50%;
+    top: 10vh;
+    transform: translateX(-50%);
+}
+
+.display{
+    display: none;
+}
